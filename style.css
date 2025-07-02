@@ -270,3 +270,30 @@ section {
     width: 300px;
     height: 200px;
 }
+.card h3{
+    font-family: Nunito;
+}
+.card p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    gap: 2rem;
+}
+.card p span{
+    color: rgba(0, 0, 0, 0.471);
+    text-decoration: line-through;
+}
+.btns button{
+    padding: 8px 18px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btns button:nth-child(1){
+    background-color: orange;
+}
+.btns button:nth-child(2){
+    border-color: orange;
+}
